@@ -1,0 +1,21 @@
+{
+  "name": "docman_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app",
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mustapha Muhammed Botchway",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "formidable": "^3.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
