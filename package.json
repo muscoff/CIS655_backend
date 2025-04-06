@@ -11,9 +11,11 @@
   "author": "Mustapha Muhammed Botchway",
   "license": "MIT",
   "dependencies": {
+    "@google-cloud/storage": "^7.16.0",
     "cors": "^2.8.5",
     "express": "^4.21.2",
-    "formidable": "^3.5.2"
+    "formidable": "^3.5.2",
+    "mysql2": "^3.14.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"

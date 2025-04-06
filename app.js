@@ -9,6 +9,8 @@ app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 app.use(cors())
 
+app.use('/api/doc', require('./api/docs'))
+
 app.get('/', (req, res)=>{
     res.json({message: 'Welcome to Docman Backend API verison@1.0.0'})
 })
