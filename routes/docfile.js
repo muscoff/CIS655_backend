@@ -19,7 +19,7 @@ const fetchDocuments = (req, res)=> {
     db.query(sql, [doc_user], (err, result)=>{
         if(err){
             console.log('error occurred', err.message)
-            return res.status(400).json({status: false, message: err.mesage})
+            return res.status(400).json({status: false, message: err.message})
         }
 
         res.status(200).json({status: true, data: result})
